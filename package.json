@@ -1,0 +1,27 @@
+{
+  "name": "mailapp-backend",
+  "version": "1.0.0",
+  "description": "Backend MailApp with Node, express & MongoDB",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "mailapp",
+    "mongo",
+    "node",
+    "express"
+  ],
+  "author": "Facundo Almaraz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
